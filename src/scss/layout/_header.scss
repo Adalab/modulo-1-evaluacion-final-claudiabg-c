@@ -3,11 +3,15 @@
   background-image: url(../images/cover.jpg);
   height: 100vh;
   background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 
   & .burger {
     background-color: $brandblue;
     position: fixed;
     padding: 1.5rem 1.4rem 1.5rem;
+    top: 0;
   }
 
   & .headertitle {
@@ -18,7 +22,6 @@
     text-transform: uppercase;
     font-family: "Roboto Slab", serif;
     padding-bottom: 1rem;
-    padding-top: 28.4rem;
     word-spacing: 100vw;
   }
 
@@ -34,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5.3rem;
 
     & .scroll {
       height: 4.5rem;
