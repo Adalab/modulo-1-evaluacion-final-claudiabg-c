@@ -20,13 +20,13 @@
     line-height: 5.5rem;
     color: white;
     text-transform: uppercase;
-    font-family: "Roboto Slab", serif;
+    font-family: $fontbold;
     padding-bottom: 1rem;
     word-spacing: 100vw;
   }
 
   & .headertext {
-    font-family: "Roboto", sans-serif;
+    font-family: $fontregular;
     color: white;
     font-size: 1.6rem;
     text-align: center;
