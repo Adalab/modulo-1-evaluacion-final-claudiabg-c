@@ -1,5 +1,56 @@
-.burger {
-  background-color: $brandblue;
-  position: fixed;
-  padding: 15px 14px 15px;
+#header {
+  display: block;
+  background-image: url(../images/cover.jpg);
+  height: 100vh;
+  background-position: center top;
+
+  & .burger {
+    background-color: $brandblue;
+    position: fixed;
+    padding: 1.5rem 1.4rem 1.5rem;
+  }
+
+  & .headertitle {
+    font-size: 4.2rem;
+    text-align: center;
+    line-height: 5.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 1rem;
+    padding-top: 28.4rem;
+    word-spacing: 100vw;
+  }
+
+  & .headertext {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 4.5rem;
+  }
+
+  & .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .scroll {
+      height: 4.5rem;
+      width: 4.5rem;
+      background-color: white;
+      border-radius: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & .scrollarrow {
+        height: 1.17rem;
+        width: 2rem;
+        padding-top: 1.8rem;
+        padding-bottom: 1.53rem;
+        object-position: center;
+      }
+    }
+  }
 }
