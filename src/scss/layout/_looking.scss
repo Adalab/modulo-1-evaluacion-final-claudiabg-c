@@ -61,6 +61,12 @@
     justify-content: center;
     margin-bottom: 1.5rem;
 
+    &:hover {
+      opacity: 0.75;
+      transform: scale(1.1);
+      transition: opacity ease 5s, transform ease 5s;
+    }
+
     @include tablet {
       width: 9.1rem;
       margin-bottom: 3rem;

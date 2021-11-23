@@ -90,6 +90,12 @@
     width: max-content;
     margin: 0 auto 3rem auto;
 
+    &:hover {
+      transition: background-color ease 2s, box-shadow ease 4s;
+      background-color: $brandlightblue;
+      box-shadow: 1px 4px 8px $brandblue;
+    }
+
     @include tablet {
       padding: 0 4.35rem;
     }
