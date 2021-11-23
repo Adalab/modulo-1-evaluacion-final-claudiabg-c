@@ -1,11 +1,16 @@
 .looking {
   padding: 3rem 1.5rem;
 
+  @include tablet {
+    padding: 3rem 3.9rem;
+  }
+
   & .insomnia {
     color: $brandlightblue;
     font-size: 1.4rem;
     font-family: $fontregular;
     line-height: 3rem;
+    text-transform: capitalize;
   }
 
   & .titlelooking {
@@ -13,6 +18,13 @@
     font-size: 2.4rem;
     line-height: 3rem;
     padding-bottom: 1.5rem;
+    text-transform: capitalize;
+
+    @include tablet {
+      font-size: 2.6rem;
+      line-height: 4.5rem;
+      padding-bottom: 3rem;
+    }
   }
 
   & .textlooking {
@@ -21,6 +33,10 @@
     line-height: 3rem;
     color: #4a4a4a;
     padding-bottom: 3rem;
+
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   & .boxgo {
@@ -31,6 +47,11 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
+
+    @include tablet {
+      width: 9.1rem;
+      margin-bottom: 3rem;
+    }
 
     & .gobuttom {
       color: $brandorange;

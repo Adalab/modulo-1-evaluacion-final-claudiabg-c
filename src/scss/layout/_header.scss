@@ -25,6 +25,12 @@
     font-family: $fontbold;
     padding-bottom: 1rem;
     word-spacing: 100vw;
+
+    @include tablet {
+      font-size: 8rem;
+      line-height: 10.6rem;
+      padding-bottom: 2rem;
+    }
   }
 
   & .headertext {
@@ -33,6 +39,11 @@
     font-size: 1.6rem;
     text-align: center;
     padding-bottom: 4.5rem;
+
+    @include tablet {
+      font-size: 2.4rem;
+      padding-bottom: 3rem;
+    }
   }
 
   & .circle {
@@ -40,6 +51,10 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 5.3rem;
+
+    @include tablet {
+      padding-bottom: 4.5rem;
+    }
 
     & .scroll {
       height: 4.5rem;
