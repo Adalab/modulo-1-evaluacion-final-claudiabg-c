@@ -114,6 +114,7 @@
     line-height: 3rem;
     text-align: center;
     white-space: nowrap;
+    text-transform: lowercase;
 
     & .heart {
       color: $brandorange;
