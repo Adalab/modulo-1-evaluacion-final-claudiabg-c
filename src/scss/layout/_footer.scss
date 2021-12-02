@@ -118,6 +118,10 @@
     text-transform: lowercase;
 
     & .heart {
+      @font-face {
+        font-family: "ZapfDingbats";
+        src: url("../../fonts/ZapfDingbats\ Regular.ttf");
+      }
       color: $brandorange;
     }
   }
