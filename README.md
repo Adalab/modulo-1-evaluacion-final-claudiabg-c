@@ -16,6 +16,18 @@ All the links bring you to the home page of Adalab.
 
 I hope you enjoy my work!
 
+## The tecnology that I used to make this project possible was
+
+- HTML5
+- Sass
+- Gulp
+
+## And what I used for the layout of the web page was
+
+- Flexbox
+- Grid
+- Animations and transitions
+
 ## Author
 
 - [@claudiabg-c](https://github.com/claudiabg-c)
